@@ -79,7 +79,3 @@ def chat_with_rag(query):
     response = llm.invoke(final_prompt)
         
     return response.content
-
-
-# query = "What does Power system engineering focus on?"
-# chat_with_rag(query)
